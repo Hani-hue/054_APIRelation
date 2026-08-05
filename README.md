@@ -1,4 +1,4 @@
-<img width="960" height="600" alt="Screenshot 2026-08-05 173003" src="https://github.com/user-attachments/assets/62b39268-5fcd-4e71-930d-79e0f4e256ab" />POST (REGISTER PENULIS)
+POST (REGISTER PENULIS)
 <img width="960" height="600" alt="Screenshot 2026-08-05 163519" src="https://github.com/user-attachments/assets/baaa9dbe-db5b-4322-b42e-46e46a74c090" />
 
 
