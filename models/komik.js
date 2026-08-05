@@ -29,3 +29,10 @@ module.exports = (sequelize, DataTypes) => {
             foreignKey: "penulis_Id",
             as: "penulis"
         });
+    komik.belongsTo(models.Genre, {
+            foreignKey: "genre_Id",
+            as: "genre"
+        });
+    };
+    return Komik;
+};
