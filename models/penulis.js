@@ -23,5 +23,12 @@ module.exports = (sequelize, DataTypes) => {
         timestamps: true
     });
 
+    Penulis.associate = (models) => {
+        Penulis.hasMany(models.Komik, {
+            foreignKey: "penulis_Id",
+            as: "komik"
+        });
+    }
+
     return Penulis;
 };
