@@ -24,4 +24,8 @@ module.exports = (sequelize, DataTypes) => {
         tableName: "komik",
         timestamps: true
     });
-    
+    komik.associate = (models) => {
+        Komik.belongsTo(models.Penulis, {
+            foreignKey: "penulis_Id",
+            as: "penulis"
+        });
